@@ -18,7 +18,9 @@ int main() {
     queue.enqueue(4);
     cout << queue.peek() << endl; // returns 2
     cout << queue.dequeue() << endl; // returns 2
+    cout << queue.peek() << endl; // returns 3
     cout << queue.dequeue() << endl; // returns 3
+    cout << queue.peek() << endl; // returns 4
     cout << queue.dequeue() << endl; // returns 4
 
 
