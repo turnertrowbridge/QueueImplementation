@@ -8,6 +8,7 @@
 #include <iostream>
 using namespace std;
 
+
 class Node {
     int value;
     Node* next;
